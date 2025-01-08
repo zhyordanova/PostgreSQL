@@ -2,26 +2,13 @@
   
 Submit your solutions in the [SoftUni Judge Contest](https://judge.softuni.org/Contests/4103/Basic-CRUD-Exercise)
 
-
 ---
 
-## Important Notes
-Throughout the course, you will receive different databases that may have similar names and structures but contain different data specific to each exercise. To ensure proper execution and avoid conflicts:  
-- **Create a new database for each exercise** and import the provided file with the corresponding records.  
-- By following this approach, you can accurately work on each exercise and avoid any interference or data overlap between exercises.
+**Important:** Throughout the course, you will receive different databases that may have similar names and structures but contain different data specific to each exercise. To ensure proper execution and avoid conflicts, it is crucial to create a new database for each exercise and import the provided file with the corresponding records. By following this approach, you can accurately work on each exercise and avoid any interference or data overlap between different exercises.
+
+To begin, the initial step is to generate a database known as softuni_management_db and subsequently launch its query tool. Then, you need to download the file 02-Exercise-Basic-CRUD-softuni_management_db.sql from the course instance and import it into the query section of your database. Following the import process, you should run the queries included in the file. Once the queries have been executed, it is recommended that you become familiar with the database schemas and tables in the softuni_management_db before proceeding with the following tasks.
 
 ---
-
-## Getting Started
-1. Generate a database named **`softuni_management_db`** and launch its query tool.  
-2. Download the file `02-Exercise-Basic-CRUD-softuni_management_db.sql` from the course instance.  
-3. Import it into the query section of your database.  
-4. Run the queries included in the file.  
-5. Familiarize yourself with the database schemas and tables in `softuni_management_db` before proceeding with the tasks.
-
----
-
-## Tasks
 
 ### 1. Select Cities
 Write a SQL query to retrieve all available information about the **"cities"**, sorted by **`id`**.  
