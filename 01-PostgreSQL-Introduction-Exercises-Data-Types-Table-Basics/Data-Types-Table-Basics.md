@@ -1,7 +1,7 @@
 # Exercises: PostgreSQL Introduction
 
 ## Data Types and Table Basics  
-Submit your solutions in the [SoftUni Judge Contest](https://judge.softuni.org/Contests/4101/Data-Types-and-Table-Basics-Exercise)
+Submit your solutions in the [SoftUni Judge Contest](https://judge.softuni.org/Contests/4101/Data-Types-and-Table-Basics-Exercise).
 
 As you know, the former supervillain Gru is now the leader of the Minions. Given their large number, he needs your help to create a database to store important information for them.
 

@@ -1,6 +1,6 @@
 # Exercises: PostgreSQL Basic CRUD 
   
-Submit your solutions in the [SoftUni Judge Contest](https://judge.softuni.org/Contests/4103/Basic-CRUD-Exercise)
+Submit your solutions in the [SoftUni Judge Contest](https://judge.softuni.org/Contests/4103/Basic-CRUD-Exercise).
 
 ---
 
