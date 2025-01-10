@@ -14,14 +14,14 @@ Create a new table called "products" that includes a column named "product_name"
 Insert the following values into the "products" table: 'Broccoli', 'Shampoo', 'Toothpaste', and 'Candy'.
 
 #### Example
-| product_name             | 
-| character varying (100)  |
-|--------------------------|
-| Broccoli                 |
-| Shampoo                  |
-| Toothpaste               |
-| Candy                    |
 
+| product_name /character varying (100)/  |
+|-----------------------------------------|
+| Broccoli                                |
+| Shampoo                                 |
+| Toothpaste                              |
+| Candy                                   |
+ 
 ---
 
 ### b. Define the primary key when changing the existing table structure
@@ -48,13 +48,12 @@ Write an SQL statement to DROP CONSTRAINT from the "products" table.
 Submit your query for this task in the Judge system.
 
 #### Example
-| product_name          | id       |
-|character varying (100)| integer  |
-|-----------------------|----------|
-| Broccoli              | 1        |
-| Shampoo               | 2        |
-| Toothpaste            | 3        |
-| Candy                 | 4        |
+| product_name /character varying (100)/ | id /integer/ |
+|----------------------------------------|--------------|
+| Broccoli                               | 1            |
+| Shampoo                                | 2            |
+| Toothpaste                             | 3            |
+| Candy                                  | 4            |
 
 
 Let's redirect our attention to the **One-To-One Relationship** for the tasks ahead.
