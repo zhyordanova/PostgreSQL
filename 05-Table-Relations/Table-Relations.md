@@ -203,6 +203,8 @@ Create Entity/Relationship Diagram for the "customers" and "photos" tables creat
 **Please review the 07_photo_shooting_er_diagrams.pgerd file.**
 
 
+
+
 Let's focus on the **Many-To-Many Relationship** for the upcoming assignments.
 
 ---
