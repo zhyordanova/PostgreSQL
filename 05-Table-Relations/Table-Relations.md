@@ -176,13 +176,15 @@ The "customers" table should contain two columns - "name" and "date". In the "ph
 
 Insert data into the tables in the format shown below:
 
-#### customers
+#### Customers Table
+
 | name  | date       |
 |-------|------------|
 | Bella | 2022-03-25 |
 | Philip| 2022-07-05 |
 
-#### photos
+#### Photos Table
+
 | url              | place              | customer_id |
 |------------------|--------------------|-------------|
 | bella_1111.com   | National Theatre   | 1           |
@@ -217,14 +219,16 @@ The "students" table should have a column for "student_name". In the "exams" tab
 
 Insert data into the tables in the format shown below:
 
-### students
+#### Students Table
+
 | student_name |
 |--------------|
 | Mila         |
 | Toni         |
 | Ron          |
 
-### students_exams
+#### Students Exams Table
+ 
 | student_id | exam_id |
 |------------|---------|
 | 1          | 101     |
@@ -234,14 +238,16 @@ Insert data into the tables in the format shown below:
 | 2          | 102     |
 | 2          | 103     |
 
-### exams
+#### Exams Table
+
 | exam_name      |
 |----------------|
 | Python Advanced|
 | Python OOP     |
 | PostgreSQL     |
 
-### study_halls
+#### Study Halls Table
+ 
 | study_hall_name                | exam_id |
 |---------------------------------|---------|
 | Open Source Hall                | 102     |
@@ -300,13 +306,15 @@ To set up the foreign keys correctly, make sure that when a record in the "custo
 
 Insert data into the tables in the format shown below:
 
-**customers**  
+#### Customers Table
+
 | customer_name |  
 |---------------|  
 | BlueBird Inc  |  
 | Dolphin LLC   |  
 
-**contacts**  
+#### Contacts Table
+
 | contact_name  | phone            | email                      | customer_id |  
 |---------------|------------------|----------------------------|-------------|  
 | John Doe      | (408)-111-1234    | john.doe@bluebird.dev       | 1           |  
@@ -318,12 +326,14 @@ Submit your query for this task in the Judge system.
 
 **Example**
 
-**customers**  
+#### Customers Table
+
 | id | customer_name |  
 |----|---------------|  
 | 2  | Dolphin LLC   |  
 
-**contacts**  
+#### Contacts Table
+
 | id | contact_name  | phone            | email                      | customer_id |  
 |----|---------------|------------------|----------------------------|-------------|  
 | 1  | John Doe      | (408)-111-1234    | john.doe@bluebird.dev       | [null]      |  
