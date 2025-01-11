@@ -292,7 +292,7 @@ After update
 
 Then to see the result you can:
 ```sql
-SELECT * FROM logs; |
+SELECT * FROM logs;
 
 ### 13. Notification Email on Balance Change
 
