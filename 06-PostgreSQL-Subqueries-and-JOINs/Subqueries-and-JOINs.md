@@ -332,7 +332,6 @@ To begin, create a table called "monasteries" with three columns:
 
 Then, insert the provided data into this table:
 
-    ```
      ('Rila Monastery "St. Ivan of Rila"', 'BG'),
      ('Bachkovo Monastery "Virgin Mary"', 'BG'),
      ('Troyan Monastery "Holy Mother''s Assumption"', 'BG'),
