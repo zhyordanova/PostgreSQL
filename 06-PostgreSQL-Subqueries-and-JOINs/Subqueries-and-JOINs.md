@@ -32,7 +32,7 @@ Create an SQL query that selects the first 10 apartments in the `apartments` tab
 - Select the `country` column from the `apartments` table
 - Select the `booked_at` column from the `bookings` table, converting it to a date format
 
-> ***Note***: The **LEFT JOIN** is the same as the **LEFT OUTER JOIN** so you can use them interchangeably.
+***Note***: The **LEFT JOIN** is the same as the **LEFT OUTER JOIN** so you can use them interchangeably.
 
 Submit your query for this task in the Judge system.
 
