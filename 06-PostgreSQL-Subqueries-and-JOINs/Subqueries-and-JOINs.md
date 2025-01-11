@@ -331,8 +331,8 @@ To begin, create a table called "monasteries" with three columns:
    - `country_code` - column should be exactly two characters long. 
 
 Then, insert the provided data into this table:
-
-    ```
+    
+    ```sql
      ('Rila Monastery "St. Ivan of Rila"', 'BG'),
      ('Bachkovo Monastery "Virgin Mary"', 'BG'),
      ('Troyan Monastery "Holy Mother''s Assumption"', 'BG'),
@@ -351,8 +351,7 @@ Then, insert the provided data into this table:
      ('Pa-Auk Forest Monastery', 'MM'),
      ('Taktsang Palphug Monastery', 'BT'),
      ('Sümela Monastery', 'TR');
-   ```
-
+    ```
 Next, modify the "countries" table by adding a BOOLEAN column called "three_rivers". This column should have a default value of false, indicating that the country does not have three rivers. To update the "three_rivers" column for countries that have more than three rivers running through them, use a subquery to count the number of rivers in each country and compare the result to the value of 3.
 
 Finally, write a SQL query that selects the "monastery_name" and their respective "country_name" from the "monasteries" table, ordered alphabetically by "monastery_name". The query should retrieve records for countries with more than three rivers flowing within their borders.
