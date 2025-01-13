@@ -287,10 +287,7 @@ After update
 
 | id  | account_id | old_sum     | new_sum     | Comments                                         |
 |-----|------------|-------------|-------------|-------------------------------------------------|
-| 1   | 1          | 5323.1200   | 150.0000    | First update the account table:
-`UPDATE accounts SET balance = 150.00 WHERE id = 1;`
-Then to see the result you can:
-`SELECT * FROM logs;`           |
+| 1   | 1          | 5323.1200   | 150.0000    | First update the account table: `UPDATE accounts SET balance = 150.00 WHERE id = 1;` Then to see the result you can: `SELECT * FROM logs;`  |
 
 ---
 
